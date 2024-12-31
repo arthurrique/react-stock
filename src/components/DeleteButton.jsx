@@ -3,7 +3,7 @@ import useStock from "../hooks/useStock.js"
 import PropTypes from "prop-types"
 
 DeleteButton.propTypes = {
-  itemId: PropTypes.number.isRequired,
+  itemId: PropTypes.string.isRequired,
   itemName: PropTypes.string.isRequired
 }
 

@@ -29,7 +29,7 @@ export function StockContextProvider({ children }) {
   }
 
   const getItem = (itemId) => {
-    return items.find(i => i.id === +itemId)
+    return items.find(i => i.id === itemId)
   }
 
   const updateItem = (itemId, newAttributes) => {

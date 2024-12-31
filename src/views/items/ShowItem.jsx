@@ -7,6 +7,7 @@ export default function ShowItem() {
   const { id } = useParams()
 
   const item = getItem(id)
+  if(!item) return <p>Ops... Item não encontrado!</p>
 
   return (
     <div className="item">
